@@ -1,0 +1,300 @@
+[gd_scene load_steps=5 format=3 uid="uid://bcj2wheekqohr"]
+
+[ext_resource type="Script" uid="uid://dqlsvpufww7p0" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dpej3hr5c3gil" path="res://Cell.tscn" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://fbgms6hrwj8n" path="res://assets/skullretry.png" id="4_1bvp3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_h2yge"]
+line_spacing = 0.0
+font_size = 50
+font_color = Color(0.662745, 0.0666667, 0, 1)
+
+[node name="Main" type="Node"]
+script = ExtResource("1_0xm2m")
+
+[node name="BackgroundColor" type="ColorRect" parent="."]
+offset_right = 704.0
+offset_bottom = 500.0
+color = Color(0.0666667, 0.145098, 0, 1)
+
+[node name="Board" type="Node" parent="."]
+
+[node name="Cell00" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 32)
+
+[node name="Cell01" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 96)
+cell_id = Vector2i(0, 1)
+
+[node name="Cell02" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 160)
+cell_id = Vector2i(0, 2)
+
+[node name="Cell03" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 224)
+cell_id = Vector2i(0, 3)
+
+[node name="Cell04" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 288)
+cell_id = Vector2i(0, 4)
+
+[node name="Cell05" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 352)
+cell_id = Vector2i(0, 5)
+
+[node name="Cell06" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(136, 416)
+cell_id = Vector2i(0, 6)
+
+[node name="Cell10" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 32)
+cell_id = Vector2i(1, 0)
+
+[node name="Cell11" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 96)
+cell_id = Vector2i(1, 1)
+
+[node name="Cell12" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 160)
+cell_id = Vector2i(1, 2)
+
+[node name="Cell13" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 224)
+cell_id = Vector2i(1, 3)
+
+[node name="Cell14" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 288)
+cell_id = Vector2i(1, 4)
+
+[node name="Cell15" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 352)
+cell_id = Vector2i(1, 5)
+
+[node name="Cell16" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(200, 416)
+cell_id = Vector2i(1, 6)
+
+[node name="Cell20" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 32)
+cell_id = Vector2i(2, 0)
+
+[node name="Cell21" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 96)
+cell_id = Vector2i(2, 1)
+
+[node name="Cell22" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 160)
+cell_id = Vector2i(2, 2)
+
+[node name="Cell23" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 224)
+cell_id = Vector2i(2, 3)
+
+[node name="Cell24" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 288)
+cell_id = Vector2i(2, 4)
+
+[node name="Cell25" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 352)
+cell_id = Vector2i(2, 5)
+
+[node name="Cell26" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(264, 416)
+cell_id = Vector2i(2, 6)
+
+[node name="Cell30" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 32)
+cell_id = Vector2i(3, 0)
+
+[node name="Cell31" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 96)
+cell_id = Vector2i(3, 1)
+
+[node name="Cell32" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 160)
+cell_id = Vector2i(3, 2)
+
+[node name="Cell33" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 224)
+cell_id = Vector2i(3, 3)
+
+[node name="Cell34" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 288)
+cell_id = Vector2i(3, 4)
+
+[node name="Cell35" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 352)
+cell_id = Vector2i(3, 5)
+
+[node name="Cell36" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(328, 416)
+cell_id = Vector2i(3, 6)
+
+[node name="Cell40" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 32)
+cell_id = Vector2i(4, 0)
+
+[node name="Cell41" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 96)
+cell_id = Vector2i(4, 1)
+
+[node name="Cell42" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 160)
+cell_id = Vector2i(4, 2)
+
+[node name="Cell43" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 224)
+cell_id = Vector2i(4, 3)
+
+[node name="Cell44" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 288)
+cell_id = Vector2i(4, 4)
+
+[node name="Cell45" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 352)
+cell_id = Vector2i(4, 5)
+
+[node name="Cell46" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 416)
+cell_id = Vector2i(4, 6)
+
+[node name="Cell50" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 32)
+cell_id = Vector2i(5, 0)
+
+[node name="Cell51" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 96)
+cell_id = Vector2i(5, 1)
+
+[node name="Cell52" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 160)
+cell_id = Vector2i(5, 2)
+
+[node name="Cell53" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 224)
+cell_id = Vector2i(5, 3)
+
+[node name="Cell54" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 288)
+cell_id = Vector2i(5, 4)
+
+[node name="Cell55" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 352)
+cell_id = Vector2i(5, 5)
+
+[node name="Cell56" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(456, 416)
+cell_id = Vector2i(5, 6)
+
+[node name="Cell60" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 32)
+cell_id = Vector2i(6, 0)
+
+[node name="Cell61" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 96)
+cell_id = Vector2i(6, 1)
+
+[node name="Cell62" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 160)
+cell_id = Vector2i(6, 2)
+
+[node name="Cell63" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 224)
+cell_id = Vector2i(6, 3)
+
+[node name="Cell64" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 288)
+cell_id = Vector2i(6, 4)
+
+[node name="Cell65" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 352)
+cell_id = Vector2i(6, 5)
+
+[node name="Cell66" parent="Board" instance=ExtResource("1_ig7tw")]
+position = Vector2(520, 416)
+cell_id = Vector2i(6, 6)
+
+[node name="GameOver" type="Label" parent="."]
+visible = false
+z_index = 2
+offset_left = 128.0
+offset_top = 88.0
+offset_right = 576.0
+offset_bottom = 216.0
+text = "game over"
+label_settings = SubResource("LabelSettings_h2yge")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="RetryButton" type="TextureButton" parent="GameOver"]
+z_index = 3
+layout_mode = 0
+offset_left = -128.0
+offset_top = -88.0
+offset_right = 576.0
+offset_bottom = 412.0
+
+[node name="RetryButtonImg" type="Sprite2D" parent="GameOver"]
+position = Vector2(216, 160)
+texture = ExtResource("4_1bvp3")
+
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+z_index = -1
+layout_mode = 0
+offset_left = 59.0
+offset_top = 43.0
+offset_right = 390.0
+offset_bottom = 88.0
+color = Color(0.0666667, 0.145098, 0, 1)
+
+[connection signal="on_cell_clicked" from="Board/Cell00" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell01" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell02" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell03" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell04" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell05" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell06" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell10" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell11" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell12" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell13" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell14" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell15" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell16" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell20" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell21" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell22" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell23" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell24" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell25" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell26" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell30" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell31" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell32" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell33" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell34" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell35" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell36" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell40" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell41" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell42" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell43" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell44" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell45" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell46" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell50" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell51" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell52" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell53" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell54" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell55" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell56" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell60" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell61" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell62" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell63" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell64" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell65" to="." method="_on_cell_clicked"]
+[connection signal="on_cell_clicked" from="Board/Cell66" to="." method="_on_cell_clicked"]
+[connection signal="pressed" from="GameOver/RetryButton" to="." method="_on_retry_button_pressed"]

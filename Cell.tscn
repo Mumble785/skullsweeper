@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpej3hr5c3gil"]
+
+[ext_resource type="Script" uid="uid://bptddg2k4cqp7" path="res://cell.gd" id="1_uween"]
+[ext_resource type="Texture2D" uid="uid://dwhldsgeou8q2" path="res://assets/skull.png" id="1_yborn"]
+[ext_resource type="LabelSettings" uid="uid://dfr2nn32jqt7l" path="res://assets/labelstyle.tres" id="2_p3prn"]
+
+[node name="Cell" type="Node2D"]
+script = ExtResource("1_uween")
+
+[node name="Fill" type="ColorRect" parent="."]
+z_index = 1
+offset_right = 51.0
+offset_bottom = 51.0
+color = Color(0.662745, 0.0666667, 0, 1)
+
+[node name="FillColor" type="ColorRect" parent="Fill"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 49.0
+offset_bottom = 49.0
+color = Color(0.0666667, 0.145098, 0, 1)
+
+[node name="ButtonField" type="TextureButton" parent="Fill/FillColor"]
+layout_mode = 0
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 49.0
+offset_bottom = 49.0
+
+[node name="Value" type="Label" parent="."]
+offset_right = 51.0
+offset_bottom = 51.0
+label_settings = ExtResource("2_p3prn")
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Skull" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(25.5, 25.5)
+scale = Vector2(0.546512, 0.546512)
+texture = ExtResource("1_yborn")
+
+[connection signal="pressed" from="Fill/FillColor/ButtonField" to="." method="_on_button_field_pressed"]
